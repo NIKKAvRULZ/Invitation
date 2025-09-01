@@ -1,427 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>IEEE TechFest 2025 Invitation</title>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Orbitron:wght@500;600;700&display=swap");
+<head>
+  <meta charset="UTF-8">
+  <title>TechFest Invitation</title>
+</head>
+<body style="margin:0; padding:0; background-color:#0a0a0a; font-family: Arial, sans-serif;">
 
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: "Plus Jakarta Sans", "Segoe UI", Arial, sans-serif;
-        /* Futuristic neon grid and glow background */
-        background: #181c2a;
-        background-image: linear-gradient(135deg, #23272f 0%, #181c2a 100%),
-          url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" xmlns="http://www.w3.org/2000/svg"><rect width="100%25" height="100%25" fill="%23181c2a"/><g opacity="0.18"><path d="M0 60 L2000 60 M0 120 L2000 120 M0 180 L2000 180 M0 240 L2000 240 M60 0 L60 2000 M120 0 L120 2000 M180 0 L180 2000 M240 0 L240 2000" stroke="%239cff1e" stroke-width="1.5"/><circle cx="120" cy="120" r="12" fill="%239cff1e"/><rect x="240" y="60" width="18" height="18" fill="%239cff1e"/><polygon points="320,180 340,200 360,180" fill="%239cff1e"/></g></svg>');
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 100vh;
-        color: #333344;
-      }
+  <!-- Outer container with tech grid background -->
+  <table align="center" cellpadding="0" cellspacing="0" width="100%" style="background-color:#0a0a0a; background-image:url('https://dinglab.jh.edu/wp-content/uploads/2023/11/bigstock-Futuristic-Modern-Hi-tech-Back-394887410_1-1024x576-1.jpg'); background-size:cover; background-position:center; padding:40px 0;">
+    <tr>
+      <td align="center">
+        <!-- Inner content -->
+        <table width="600" cellpadding="0" cellspacing="0" style="background-color:#111827; border-radius:12px; box-shadow:0 0 20px rgba(0,0,0,0.6); overflow:hidden;">
 
-      .email-container {
-        max-width: 700px;
-        margin: 40px auto;
-        background: rgba(34, 37, 42, 0.98);
-        border-radius: 16px;
-        overflow: hidden;
-        box-shadow: 0 10px 30px #9cff1e, 0 2px 24px #181c2a;
-        /* Tech SVG background overlay for container */
-        background-image: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" xmlns="http://www.w3.org/2000/svg"><rect width="100%25" height="100%25" fill="none"/><g opacity="0.10"><path d="M0 32 L700 32 M0 64 L700 64 M0 96 L700 96 M0 128 L700 128 M32 0 L32 700 M64 0 L64 700 M96 0 L96 700 M128 0 L128 700" stroke="%239cff1e" stroke-width="1.2"/><circle cx="64" cy="64" r="6" fill="%239cff1e"/><rect x="128" y="32" width="8" height="8" fill="%239cff1e"/></g></svg>');
-        background-blend-mode: lighten;
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
+          <!-- Logos -->
+          <tr>
+            <td align="center" style="padding:20px; background-color:#1f2937;">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="left" width="33%">
+                      <img src="https://ieee.lk/wp-content/uploads/2018/09/logo-transparent-bnw.png" alt="IEEE" width="100" style="display:block;" />
+                  </td>
+                  <td align="center" width="33%">
+                      <img src="https://i.imghippo.com/files/VEW8133KTA.png" alt="TechFest Logo" width="120" style="display:block;" />
+                  </td>
+                  <td align="right" width="33%">
+                      <img src="https://i.imghippo.com/files/nwR4049Skk.png" alt="Techverse Logo" width="100" style="display:block;" />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
 
-      .header {
-        background: rgba(34, 37, 42, 0.92);
-        padding: 48px 30px 38px 30px;
-        text-align: center;
-        position: relative;
-        border-bottom: 4px solid #9cff1e;
-        box-shadow: 0 0 32px #9cff1e, 0 2px 24px #181c2a, 0 0 80px #9cff1e inset;
-        backdrop-filter: blur(8px);
-      }
+          <!-- Banner -->
+          <tr>
+            <td align="center" style="padding:40px 20px; background:linear-gradient(135deg,#9cff1e,#1f2937); color:#111827;">
+              <h1 style="margin:0; font-size:36px; font-weight:bold; letter-spacing:1px;">TechFest 2025</h1>
+              <p style="margin:10px 0 0; font-size:18px; opacity:0.9;">IEEE Sri Lanka Section Flagship Event</p>
+            </td>
+          </tr>
 
-      .header::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 4px;
-        background: linear-gradient(
-          90deg,
-          #181c2a 0%,
-          #9cff1e 50%,
-          #181c2a 100%
-        );
-      }
-
-      .header-logos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 32px;
-        margin-bottom: 25px;
-        padding: 20px;
-        background: rgba(156, 255, 30, 0.08);
-        border-radius: 16px;
-        box-shadow: 0 2px 16px #9cff1e;
-      }
-
-      .header-logos img {
-        height: 55px;
-        width: auto;
-        object-fit: contain;
-        filter: none;
-        background: #181c2a;
-        border-radius: 8px;
-        box-shadow: 0 2px 8px #9cff1e;
-        padding: 6px;
-      }
-
-      .event-title {
-        color: #9cff1e;
-        font-size: 38px;
-        font-weight: 800;
-        letter-spacing: 2px;
-        margin: 0 0 12px 0;
-        font-family: "Orbitron", sans-serif;
-        text-shadow: 0 2px 16px #181c2a, 0 2px 8px #9cff1e;
-      }
-
-      .subtitle {
-        color: #eaece8;
-        font-size: 19px;
-        font-weight: 600;
-        margin: 0;
-        letter-spacing: 1px;
-        text-shadow: 0 2px 8px #9cff1e, 0 1px 4px #181c2a;
-      }
-
-      .body-content {
-        padding: 40px;
-        color: #eaece8;
-        font-size: 16px;
-        line-height: 1.7;
-      }
-
-      .intro-text {
-        font-size: 17px;
-        margin-bottom: 25px;
-        color: #b2ffdb;
-      }
-
-      .highlight-box {
-        background: #23272f;
-        border-left: 4px solid #9cff1e;
-        color: #eaece8;
-        box-shadow: 0 2px 12px #9cff1e;
-        padding: 25px;
-        margin: 30px 0;
-        border-radius: 0 8px 8px 0;
-      }
-
-      .event-details {
-        display: flex;
-        justify-content: center;
-        margin: 35px 0;
-        flex-wrap: nowrap;
-        gap: 10px;
-        flex-direction: row;
-        align-items: stretch;
-      }
-
-      .detail-card {
-        background: #23272f;
-        border-radius: 12px;
-        padding: 10px;
-        width: 30%;
-        min-width: 180px;
-        box-shadow: 0 5px 15px rgba(156, 255, 30, 0.08);
-        border: 2px solid #9cff1e;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        color: #eaece8;
-      }
-
-      .detail-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 20px #9cff1e;
-      }
-
-      .detail-card h3 {
-        color: #9cff1e;
-        margin-top: 0;
-        font-size: 17px;
-        border-bottom: 1px solid #23272f;
-        padding-bottom: 12px;
-        font-weight: 700;
-        font-family: "Orbitron", sans-serif;
-        letter-spacing: 1px;
-      }
-
-      .detail-card ul {
-        padding-left: 0;
-        margin: 16px 0 0 0;
-        list-style-position: inside;
-        text-align: left;
-      }
-
-      .detail-card li {
-        margin-bottom: 12px;
-        font-size: 15px;
-        color: #b2ffdb;
-        line-height: 1.5;
-        padding-left: 18px;
-        text-align: left;
-      }
-
-      .event-info {
-        background: #23272f;
-        padding: 20px;
-        border-radius: 10px;
-        margin: 30px 0;
-        text-align: center;
-        border: 2px solid #9cff1e;
-        color: #eaece8;
-        box-shadow: 0 2px 12px #9cff1e;
-      }
-
-      .event-info p {
-        margin: 8px 0;
-        font-size: 16px;
-        color: #eaece8;
-      }
-
-      .event-info strong {
-        color: #9cff1e;
-      }
-
-      .cta-container {
-        text-align: center;
-        margin: 35px 0 25px 0;
-      }
-
-      .cta-btn {
-        background: linear-gradient(135deg, #9cff1e 0%, #23272f 100%);
-        color: #181c2a;
-        padding: 16px 42px;
-        text-decoration: none;
-        border-radius: 30px;
-        font-size: 17px;
-        font-weight: 700;
-        box-shadow: 0 5px 15px #9cff1e;
-        transition: all 0.3s ease;
-        display: inline-block;
-        letter-spacing: 0.5px;
-        border: none;
-        outline: none;
-      }
-
-      .cta-btn:hover {
-        background: linear-gradient(135deg, #23272f 0%, #9cff1e 100%);
-        color: #9cff1e;
-        transform: translateY(-2px);
-        box-shadow: 0 8px 20px #9cff1e;
-      }
-
-      .footer {
-        background: rgba(34, 37, 42, 0.92);
-        text-align: center;
-        padding: 36px 30px 32px 30px;
-        font-size: 15px;
-        color: #b2ffdb;
-        border-top: 3px solid #9cff1e;
-        box-shadow: 0 0 32px #9cff1e, 0 -2px 24px #181c2a,
-          0 0 80px #9cff1e inset;
-        backdrop-filter: blur(8px);
-      }
-
-      .footer a {
-        color: #9cff1e;
-        text-decoration: none;
-        font-weight: 600;
-        transition: color 0.2s ease;
-      }
-
-      .footer a:hover {
-        color: #eaece8;
-        text-decoration: underline;
-      }
-
-      .footer-links {
-        margin-bottom: 15px;
-      }
-
-      .copyright {
-        margin-top: 15px;
-        color: #b2ffdb;
-        font-size: 13.5px;
-      }
-
-      @media (max-width: 750px) {
-        .email-container {
-          width: 95% !important;
-          margin: 20px auto;
-        }
-
-        .header-logos {
-          flex-direction: column;
-          gap: 20px;
-        }
-
-        .header-logos img {
-          height: 45px;
-        }
-
-        .event-title {
-          font-size: 28px;
-        }
-
-        .subtitle {
-          font-size: 16px;
-        }
-
-        .body-content {
-          padding: 25px 20px;
-        }
-
-        .event-details {
-          flex-direction: column;
-        }
-
-        .detail-card {
-          width: 100%;
-          margin-bottom: 20px;
-        }
-
-        .cta-btn {
-          font-size: 16px;
-          padding: 14px 30px;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <table
-      role="presentation"
-      cellpadding="0"
-      cellspacing="0"
-      border="0"
-      width="100%"
-      style="padding: 30px 0"
-    >
-      <tr>
-        <td align="center">
-          <div class="email-container">
-            <!-- Header with Logos -->
-            <div class="header">
-              <div class="header-logos">
-                <img
-                  src="https://ieee.lk/wp-content/uploads/2018/09/logo-transparent-bnw.png"
-                  alt="IEEE Sri Lanka Section"
-                />
-                <img
-                  src="https://i.imghippo.com/files/VEW8133KTA.png"
-                  alt="TechFest Logo"
-                />
-                <img
-                  src="https://i.imghippo.com/files/nwR4049Skk.png"
-                  alt="Techverse Logo"
-                />
-              </div>
-              <h1 class="event-title">IEEE TechFest 2025</h1>
-              <div class="subtitle">
-                Global Technology Festival | Flagship IEEE Event
-              </div>
-            </div>
-
-            <!-- Body -->
-            <div class="body-content">
-              <p class="intro-text">
-                You are cordially invited to
-                <strong>IEEE TechFest 2025</strong>, a premier global initiative
-                establishing one of the largest student-focused IEEE technology
-                events, commencing in Sri Lanka with plans for expansion across
-                the region and beyond.
+          <!-- Content -->
+          <tr>
+            <td style="padding:30px 40px; color:#e5e7eb; background-color:#111827;">
+              <p style="font-size:16px; line-height:1.6;">
+                You are warmly invited to join us for <strong>TechFest 2025</strong>, the premier technology event organized by the <strong>IEEE Sri Lanka Section</strong>. This flagship event brings together innovators, engineers, and tech enthusiasts for an unforgettable experience of learning, networking, and inspiration.
               </p>
+              <ul style="font-size:16px; line-height:1.6; margin:20px 0 0 20px; padding:0;">
+                <li>🔹 Keynote sessions by industry leaders</li>
+                <li>🔹 Cutting-edge technology showcases</li>
+                <li>🔹 Networking opportunities with professionals</li>
+              </ul>
+            </td>
+          </tr>
 
-              <div class="highlight-box">
-                Organized by the
-                <strong
-                  >IEEE Sri Lanka Section Student Activities Committee
-                  (SLSAC)</strong
-                >, this distinguished event brings together IEEE Student
-                Branches, Technical Chapters, Women in Engineering Affinity
-                Groups, Universities, and Industry Leaders to advance
-                technology, research, innovation, and professional networking.
-              </div>
+          <!-- Call to Action -->
+          <tr>
+            <td align="center" style="padding:30px; background-color:#1f2937;">
+              <a href="YOUR_REGISTRATION_LINK" style="background:linear-gradient(135deg,#9cff1e,#1f2937); padding:14px 28px; color:#111827; text-decoration:none; font-size:18px; font-weight:bold; border-radius:8px; display:inline-block;">
+                🚀 Register Now
+              </a>
+            </td>
+          </tr>
 
-              <div class="event-details">
-                <div class="detail-card">
-                  <h3>IEEE & University Stalls</h3>
-                  <ul>
-                    <li>16 National Organizational Unit Stalls</li>
-                    <li>22 IEEE Student Branch Stalls</li>
-                    <li>Innovative student projects showcase</li>
-                    <li>Interactive technology demonstrations</li>
-                  </ul>
-                </div>
+          <!-- Footer -->
+          <tr>
+            <td align="center" style="padding:20px; background-color:#111827; color:#9cff1e; font-size:14px;">
+              © 2025 IEEE Sri Lanka Section. All rights reserved.
+            </td>
+          </tr>
 
-                <div class="detail-card">
-                  <h3>Industry Exhibitions</h3>
-                  <ul>
-                    <li>12 Industry technology showcases</li>
-                    <li>Future tech experience demonstrations</li>
-                    <li>Hands-on interactive exhibits</li>
-                    <li>Cutting-edge innovations display</li>
-                  </ul>
-                </div>
-
-                <div class="detail-card">
-                  <h3>Career Development</h3>
-                  <ul>
-                    <li>25 Leading Tech Companies</li>
-                    <li>Exclusive job and internship opportunities</li>
-                    <li>Career guidance and executive mentoring</li>
-                    <li>Professional development resources</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="event-info">
-                <p><strong>Date:</strong> October 12–14, 2025</p>
-                <p><strong>Time:</strong> 9:00 AM - 6:00 PM Daily</p>
-                <p><strong>Venue:</strong> BMICH, Colombo, Sri Lanka</p>
-              </div>
-
-              <div class="cta-container">
-                <a
-                  href="https://techfest.ieee.lk"
-                  target="_blank"
-                  class="cta-btn"
-                >
-                  Register Now
-                </a>
-              </div>
-            </div>
-
-            <!-- Footer -->
-            <div class="footer">
-              <div class="footer-links">
-                <a href="https://ieee.lk">Website</a> •
-                <a href="mailto:info@ieee.lk">Contact</a> •
-                <a href="https://maps.app.goo.gl/">Directions</a>
-              </div>
-              <div class="copyright">
-                © 2025 IEEE Sri Lanka Section. All rights reserved.
-              </div>
-            </div>
-          </div>
-        </td>
-      </tr>
-    </table>
-  </body>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
 </html>
